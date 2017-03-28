@@ -1,0 +1,141 @@
+body {
+	margin: 0 auto;
+	background-color: #5f84a0;
+}
+
+.main-section {
+    display: flex;
+    margin: 0 auto;
+    height: 800px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    font-family:lato;
+    color:white;
+    font-size:35px;
+    font-weight:300;
+}
+
+.correct-user {
+    display: flex;
+    justify-content: center;
+    margin-top: 45vh;
+    font-family: lato;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: white;
+}
+
+.user-name {
+    font-weight: 500;
+    color: #294961;
+
+}
+
+.wrapper {   
+	border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 400px;
+    height: 400px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-content: center;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    box-shadow: 0 5px 20px 4px rgba(0, 0, 0, 0.09)
+} 
+
+.wrapper-header {
+    font-family: lato;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: black;
+} 
+
+
+.form-signup {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 60%;
+}
+
+
+.label-text {
+	padding-bottom: 7px;
+    font-family: lato;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+
+  } 
+
+.input-box {
+  	    font-family: lato;
+    margin-bottom: 20px;
+    height: 28px;
+    border: 1px solid rgba(21, 21, 21, 0.24);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+    background-color: rgba(112, 128, 144, 0.03);
+}
+
+input.input-box:focus {
+    border: 1px solid #41a7f9;
+    outline: darkturquoise;
+}
+
+input.send-button:focus {
+    outline: none;
+    background-color: #1480d6;
+}
+
+input.send-button:hover {
+    outline: none;
+    background-color: #1480d6;
+    transition: background-color 0.5s ease;
+}
+
+
+
+.send-button {
+margin-top: 20px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #4bafff;
+    font-family: lato;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #cecece;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #cecece;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #cecece;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #cecece;
+}
