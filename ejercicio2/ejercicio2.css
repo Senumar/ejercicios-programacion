@@ -1,0 +1,55 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    font-size: ;
+    font-family: lato;
+    margin: 0 auto;
+    list-style-type: none;
+
+}
+
+.text {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.imagen {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+
+.list {
+	list-style-type: none;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+} 
+
+.hypervinculo {
+	text-decoration: none;
+	color: #4c4c4c;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.hypervinculo:hover {
+	text-decoration: none;
+	color: #03A9F4;
+    font-size: 18px;
+}
+
+
+
+.options {
+	margin-top: 20px;
+}
